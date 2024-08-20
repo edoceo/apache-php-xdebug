@@ -2,7 +2,7 @@
 # Edoceo Apache+PHP+Xdebug
 #
 
-FROM debian:11-slim
+FROM debian:12-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 
