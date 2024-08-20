@@ -1,0 +1,16 @@
+#
+# Edoceo Apache PHP Xdebug
+#
+
+version: "3.7"
+
+services:
+  web:
+    container_name: apache-php-xdebug
+    build: .
+    pull_policy: never
+    ports:
+      - "8000:80"
+      # - "9000:9000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
