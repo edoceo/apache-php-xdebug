@@ -2,6 +2,12 @@
 
 A Debian image using Apache (prefork), PHP and Xdebug
 
+- Debian 12
+- Apache 2.4.61
+- PHP 8.2.20
+- Xdebug 3.2.0
+
+
 ## Running
 
 ```shell
