@@ -13,8 +13,8 @@ A Debian image using Apache (prefork), PHP and Xdebug
 ```shell
 git clone ...
 docker compose up \
-	--mount type=bind,source=/path/to/php-project,target=/var/www/html \
-	--mount type=bind,source=/path/to/apache-site-config.conf,target=/etc/apache2/sites-enabled/something.conf
+	--mount type=bind,source=/path/to/php-project,target=/app \
+	--mount type=bind,source=/path/to/apache-config.conf,target=/etc/apache2/apache2.conf
 ```
 
 By default Apache is listening on 8000, Xdebug on 9003.
